@@ -3102,5 +3102,93 @@ ol {
     font-weight: 400;
     color: #666;
 }
-/*===Sub-Banner Area Css===*/
-
+/*===Terms Area Css===*/
+#terms{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#terms_page #terms .nav-item{
+    margin: 0 18px;
+}
+#terms_page #terms .nav {
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    border-bottom: 2px solid #f1f1f1;
+}
+#terms_page #terms .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #EA1C24;
+    background-color: transparent;
+    margin: 0;
+}
+#terms_page #terms button {
+    border: none;
+    background-color: transparent;
+}
+#terms_page #terms button:focus {
+    outline: none;
+}
+#terms_page #terms .nav-link{
+    position: relative;
+}
+#terms_page #terms .nav-link:after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background-color: #EA1C24;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#terms_page #terms .nav-link.active:after{
+    width: 100%;
+}
+#terms_page #terms .header-terms h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #EA1C24;
+    border-bottom: 1px solid #EA1C24;
+    padding-bottom: 8px;
+}
+#terms_page #terms .terms-content p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+}
+#terms_page #terms .terms-content ul li{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+#terms_page #terms .terms-end p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    text-align: justify;
+}
+#terms_page #terms .terms-end p span{
+    display: inline-block;
+    color: #EA1C24;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#terms_page #terms .terms-bold {
+    font-weight: 700 !important;
+}

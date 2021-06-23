@@ -1320,6 +1320,12 @@
     #video_page .module-header{
         margin-top: 22px !important;
     }
+    #terms_page #terms .nav {
+        border-bottom: none;
+    }
+    #terms_page #terms .nav-link:after{
+        display: none;
+    }
 }
 @media(min-width: 480px) and (max-width: 575.99px){
     .c-sohid {
